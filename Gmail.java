@@ -28,10 +28,9 @@ public class LoginPage {
 
 	    WebElement email_phone = driver.findElement(By.xpath("//input[@id='identifierId']"));
 
-	    email_phone.sendKeys("farazenquero");
+	    email_phone.sendKeys("farazenquero@gmail.com");
 
-	    driver.findElement(By.id("identifierNext")).click();	
-
+	    driver.findElement(By.id("identifierNext")).click();
 	}
 
 }
